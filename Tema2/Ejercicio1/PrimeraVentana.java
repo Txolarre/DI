@@ -8,7 +8,9 @@ public class PrimeraVentana extends JFrame {
         super("Mi primera ventana");
         setSize(300,100);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //cambia el color de fondo a uno más chulo
         getContentPane().setBackground(Color.red);
+        //coloca la ventana en el centro
         setLocationRelativeTo(null);
         setVisible(true);
 
@@ -16,10 +18,6 @@ public class PrimeraVentana extends JFrame {
 
     public static void main(String[] args) {
         new PrimeraVentana();
-        //cambia el color de fondo a uno más chulo
-
-        //coloca la ventana en el centro
-
         //coloca una imagen de fondo
     }
 }
