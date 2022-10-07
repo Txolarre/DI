@@ -1,8 +1,10 @@
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.io.Reader;
 
 public class EJ5 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Reader reader = new FileReader("file.txt");
         int current = reader.read();
         while (current != -1) {
